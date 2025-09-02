@@ -1,40 +1,37 @@
 {
-    "workbench.colorTheme": "Community Material Theme Darker High Contrast",
-    "workbench.iconTheme": "eq-material-theme-icons-darker",
-    "editor.fontFamily": "'JetBrains Mono'",
-    "editor.fontLigatures": true,
-    "editor.smoothScrolling": true,
-    "editor.wordWrap": "wordWrapColumn",
-    "editor.wordWrapColumn": 80,
-    "editor.fontSize": 15,
-    "files.autoSave": "afterDelay",
-    "files.autoSaveDelay": 1,
-    "explorer.confirmDelete": false,
-    "git.enableSmartCommit": true,
-    "git.enableCommitSigning": true,
-    "git.confirmSync": false,
-    "workbench.editor.enablePreview": false,
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[css]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "editor.tabSize": 2,
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "liveServer.settings.CustomBrowser": "chrome",
-    "explorer.confirmDragAndDrop": false,
-    "editor.renderWhitespace": "boundary",
-    "editor.insertSpaces": false,
-    "[jsonc]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[typescriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
+  "[graphql]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 0,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 15,
+  "editor.fontLigatures": true,
+  "chat.commandCenter.enabled": false,
+  "explorer.confirmDelete": false,
+  "editor.renderWhitespace": "boundary",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.dragAndDrop": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+  "editor.formatOnType": false, // required
+  "vs-code-prettier-eslint.prettierLast": false,
+  "workbench.activityBar.location": "bottom",
+  "debug.javascript.autoAttachFilter": "smart",
+  "editor.scrollBeyondLastLine": false,
+  "editor.padding.bottom": 500,
+  "explorer.confirmDragAndDrop": false,
+  "window.confirmBeforeClose": "keyboardOnly",
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "git.enableCommitSigning": true,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "gitlens.graph.minimap.dataType": "lines",
+  "gitlens.graph.minimap.enabled": false,
+  "git.autofetch": true,
+  "svelte.enable-ts-plugin": true,
+  "workbench.startupEditor": "none",
 }
